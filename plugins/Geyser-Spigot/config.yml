@@ -111,11 +111,11 @@ debug-mode: false
 
 # Allow third party capes to be visible. Currently allowing:
 # OptiFine capes, LabyMod capes, 5Zig capes and MinecraftCapes
-allow-third-party-capes: false
+allow-third-party-capes: true
 
 # Allow third party deadmau5 ears to be visible. Currently allowing:
 # MinecraftCapes
-allow-third-party-ears: false
+allow-third-party-ears: true
 
 # Allow a fake cooldown indicator to be sent. Bedrock players otherwise do not see a cooldown as they still use 1.8 combat.
 # Please note: if the cooldown is enabled, some users may see a black box during the cooldown sequence, like below:
@@ -172,7 +172,7 @@ above-bedrock-nether-building: false
 # Force clients to load all resource packs if there are any.
 # If set to false, it allows the user to connect to the server even if they don't
 # want to download the resource packs.
-force-resource-packs: true
+force-resource-packs: false
 
 # Allows Xbox achievements to be unlocked.
 # THIS DISABLES ALL COMMANDS FROM SUCCESSFULLY RUNNING FOR BEDROCK IN-GAME, as otherwise Bedrock thinks you are cheating.
