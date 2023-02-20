@@ -61,7 +61,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2023-02-20 17:09:38 +0000",
       "minecraft:river": "2023-02-17 09:19:31 +0000",
+      "minecraft:jagged_peaks": "2023-02-20 17:09:11 +0000",
       "minecraft:desert": "2023-02-17 08:28:26 +0000",
       "minecraft:warm_ocean": "2023-02-17 09:20:02 +0000",
       "minecraft:savanna": "2023-02-17 12:51:44 +0000"
