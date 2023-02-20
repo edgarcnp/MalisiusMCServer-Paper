@@ -26,7 +26,7 @@ disconnect:
 player-link:
   # Whether to enable the linking system. Turning this off will prevent
   # players from using the linking feature even if they are already linked.
-  enabled: true
+  enabled: false
 
   # Whether to require a linked account in order to be able to join the server.
   require-link: false

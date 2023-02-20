@@ -25,7 +25,7 @@ bedrock:
   server-name: "Geyser-Malisius"
   # How much to compress network traffic to the Bedrock client. The higher the number, the more CPU usage used, but
   # the smaller the bandwidth used. Does not have any effect below -1 or above 9. Set to -1 to disable.
-  compression-level: 9
+  compression-level: -1
   # Whether to enable PROXY protocol or not for clients. You DO NOT WANT this feature unless you run UDP reverse proxy
   # in front of your Geyser instance.
   enable-proxy-protocol: false
@@ -104,7 +104,7 @@ ping-passthrough-interval: 3
 forward-player-ping: false
 
 # Maximum amount of players that can connect. This is only visual at this time and does not actually limit player count.
-max-players: 100
+max-players: 20
 
 # If debug messages should be sent through console
 debug-mode: false
@@ -132,7 +132,7 @@ disable-bedrock-scaffolding: false
 
 # Whether Bedrock players can right-click outside of their inventory to replace armor in their inventory, even if the
 # armor slot is already occupied (which Java Edition doesn't allow)
-always-quick-change-armor: false
+always-quick-change-armor: true
 
 # If set, when a Bedrock player performs any emote, it will swap the offhand and mainhand items, just like the Java Edition keybind
 # There are three options this can be set to:
