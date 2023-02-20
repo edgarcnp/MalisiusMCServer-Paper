@@ -1,66 +1,12 @@
-[07:33:28] [User Authenticator #1/INFO]: UUID of player PecorinoRomano69 is 1b5cc3c0-cf36-3076-b519-5ee027160712
-[07:33:28] [Server thread/INFO]: PecorinoRomano69 joined the game
-[07:33:28] [Server thread/INFO]: PecorinoRomano69[/139.192.63.9:64861] logged in with entity id 5910 at ([world]32.41306814072562, 67.0, 5.701517608305726)
-[07:33:41] [Server thread/INFO]: PecorinoRomano69 lost connection: Disconnected
-[07:33:41] [Server thread/INFO]: PecorinoRomano69 left the game
-[07:34:20] [Network Listener - #1/INFO]: [Geyser-Spigot] /139.192.63.9:56888 tried to connect!
-[07:34:20] [Network Listener - #0/INFO]: [Geyser-Spigot] Player connected with username Pecorino9495
-[07:34:20] [defaultEventLoopGroup-5-4/INFO]: [Geyser-Spigot] Pecorino9495 (logged in as: Pecorino9495) has connected to the Java server
-[07:34:20] [Geyser Spigot connection thread-4-1/INFO]: UUID of player *Pecorino9495 is 00000000-0000-0000-0009-01feed65c911
-[07:34:20] [Server thread/INFO]: [floodgate] Floodgate player logged in as *Pecorino9495 joined (UUID: 00000000-0000-0000-0009-01feed65c911)
-[07:34:20] [Server thread/INFO]: *Pecorino9495 joined the game
-[07:34:20] [Server thread/INFO]: *Pecorino9495[/139.192.63.9:0] logged in with entity id 6648 at ([world]641.5891, 8.5625, -9.48804)
-[07:34:31] [Server thread/INFO]: *Pecorino9495 issued server command: /gamemode creative
-[07:34:36] [Server thread/INFO]: *Pecorino9495 issued server command: /time set day
-[07:34:43] [User Authenticator #2/INFO]: UUID of player PecorinoRomano69 is 1b5cc3c0-cf36-3076-b519-5ee027160712
-[07:34:43] [Server thread/INFO]: PecorinoRomano69 joined the game
-[07:34:43] [Server thread/INFO]: PecorinoRomano69[/139.192.63.9:64947] logged in with entity id 7534 at ([world]26.906617525953713, 68.0, 12.002780046516895)
-[07:35:04] [Server thread/INFO]: *Pecorino9495 issued server command: /tpo PecorinoRomano69
-[07:35:04] [Server thread/WARN]: *Pecorino9495 moved too quickly! -611.1509424740462,55.34124,19.984970046516896
-[07:35:04] [Server thread/WARN]: *Pecorino9495 moved too quickly! -611.1509424740462,55.34124,19.984970046516896
-[07:35:10] [Server thread/INFO]: *Pecorino9495 issued server command: /gamemode creative PecorinoRomano69
-[07:39:28] [Server thread/INFO]: *Pecorino9495 issued server command: /tps
-[07:41:19] [Server thread/INFO]: PecorinoRomano69 lost connection: Disconnected
-[07:41:19] [Server thread/INFO]: PecorinoRomano69 left the game
-[07:41:26] [Server thread/INFO]: *Pecorino9495 issued server command: /home
-[07:41:26] [Server thread/WARN]: *Pecorino9495 moved too quickly! 618.636726,-59.4375,-19.243145
-[07:41:26] [Server thread/WARN]: *Pecorino9495 moved too quickly! 618.636726,-59.4375,-19.243145
-[07:41:26] [Server thread/WARN]: *Pecorino9495 moved too quickly! 618.636726,-59.4375,-19.243145
-[07:41:26] [Server thread/WARN]: *Pecorino9495 moved too quickly! 618.636726,-59.4375,-19.243145
-[07:41:26] [Server thread/WARN]: *Pecorino9495 moved too quickly! 618.636726,-59.4375,-19.243145
-[07:41:26] [Server thread/WARN]: *Pecorino9495 moved too quickly! 618.636726,-59.4375,-19.243145
-[07:41:26] [Server thread/WARN]: *Pecorino9495 moved too quickly! 618.636726,-59.4375,-19.243145
-[07:41:26] [Server thread/WARN]: *Pecorino9495 moved too quickly! 618.636726,-59.4375,-19.243145
-[07:41:26] [Server thread/WARN]: *Pecorino9495 moved too quickly! 618.636726,-59.4375,-19.243145
-[07:41:29] [Server thread/INFO]: *Pecorino9495 issued server command: /tps
-[08:02:46] [Server thread/INFO]: *Pecorino9495 issued server command: /home
-[08:02:46] [Server thread/WARN]: *Pecorino9495 moved too quickly! 15.886899999999969,-15.473479999999995,-15.22820999999999
-[08:02:46] [Server thread/WARN]: *Pecorino9495 moved too quickly! 15.886899999999969,-15.473479999999995,-15.22820999999999
-[08:03:58] [Server thread/INFO]: *Pecorino9495 issued server command: /gamemode survival
-[08:04:33] [Server thread/INFO]: *Pecorino9495 issued server command: /home
-[08:04:33] [Server thread/WARN]: *Pecorino9495 moved too quickly! -15.199989999999957,-8.4375,-89.03021
-[08:04:33] [Server thread/WARN]: *Pecorino9495 moved too quickly! -15.199989999999957,-8.4375,-89.03021
-[08:04:33] [Server thread/WARN]: *Pecorino9495 moved too quickly! -15.199989999999957,-8.4375,-89.03021
-[08:04:33] [Server thread/WARN]: *Pecorino9495 moved too quickly! -15.199989999999957,-8.4375,-89.03021
-[08:04:33] [Server thread/WARN]: *Pecorino9495 moved too quickly! -15.199989999999957,-8.4375,-89.03021
-[08:04:33] [Server thread/WARN]: *Pecorino9495 moved too quickly! -15.199989999999957,-8.4375,-89.03021
-[08:04:33] [Server thread/WARN]: *Pecorino9495 moved too quickly! -15.199989999999957,-8.4375,-89.03021
-[08:04:33] [Server thread/WARN]: *Pecorino9495 moved too quickly! -15.199989999999957,-8.4375,-89.03021
-[08:04:33] [Server thread/WARN]: *Pecorino9495 moved too quickly! -15.199989999999957,-8.4375,-89.03021
-[08:12:43] [Server thread/INFO]: *Pecorino9495 issued server command: /gamemode creative
-[08:15:03] [Server thread/INFO]: *Pecorino9495 issued server command: /tps
-[08:18:05] [Geyser Spigot connection thread-4-1/INFO]: [floodgate] Floodgate player logged in as *Pecorino9495 disconnected
-[08:18:05] [defaultEventLoopGroup-5-4/INFO]: [Geyser-Spigot] Pecorino9495 has disconnected from the Java server because of Bedrock client disconnected
-[08:18:05] [Server thread/INFO]: *Pecorino9495 lost connection: Disconnected
-[08:18:05] [Server thread/INFO]: *Pecorino9495 left the game
-[08:38:25] [Network Listener - #1/INFO]: [Geyser-Spigot] /139.192.63.9:56888 tried to connect!
-[08:38:26] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username Pecorino9495
-[08:38:26] [defaultEventLoopGroup-5-1/INFO]: [Geyser-Spigot] Pecorino9495 (logged in as: Pecorino9495) has connected to the Java server
-[08:38:26] [Geyser Spigot connection thread-4-2/INFO]: UUID of player *Pecorino9495 is 00000000-0000-0000-0009-01feed65c911
-[08:38:26] [Server thread/INFO]: [floodgate] Floodgate player logged in as *Pecorino9495 joined (UUID: 00000000-0000-0000-0009-01feed65c911)
-[08:38:26] [Server thread/INFO]: *Pecorino9495 joined the game
-[08:38:26] [Server thread/INFO]: *Pecorino9495[/139.192.63.9:0] logged in with entity id 13595 at ([world]641.4456, 9.0, -8.277123)
-[08:40:25] [defaultEventLoopGroup-5-1/INFO]: [Geyser-Spigot] Pecorino9495 has disconnected from the Java server because of Bedrock client disconnected
-[08:40:25] [Geyser Spigot connection thread-4-2/INFO]: [floodgate] Floodgate player logged in as *Pecorino9495 disconnected
-[08:40:25] [Server thread/INFO]: *Pecorino9495 lost connection: Disconnected
-[08:40:25] [Server thread/INFO]: *Pecorino9495 left the game
+[09:33:14] [ServerMain/INFO]: Building unoptimized datafixer
+[09:33:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:33:15] [ServerMain/ERROR]: Failed to start the minecraft server
+net.minecraft.util.SessionLock$ExceptionWorldConflict: /home/ubuntu/Minecraft-Server_Geyser/MalisiusMCServer-Paper/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:102) ~[?:?]
+	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:414) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.createAccess(LevelStorageSource.java:339) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:188) ~[paper-1.19.3.jar:git-Paper-404]
+	at org.bukkit.craftbukkit.Main.main(Main.java:302) ~[paper-1.19.3.jar:git-Paper-404]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
