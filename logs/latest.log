@@ -1,6 +1,6 @@
-[16:39:54] [ServerMain/INFO]: Building unoptimized datafixer
-[16:39:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:39:55] [ServerMain/ERROR]: Failed to start the minecraft server
+[10:38:46] [ServerMain/INFO]: Building unoptimized datafixer
+[10:38:48] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:38:48] [ServerMain/ERROR]: Failed to start the minecraft server
 net.minecraft.util.SessionLock$ExceptionWorldConflict: /home/ubuntu/Minecraft-Server_Geyser/MalisiusMCServer-Paper/./world/session.lock: already locked (possibly by other Minecraft instance?)
 	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:102) ~[?:?]
 	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[?:?]
