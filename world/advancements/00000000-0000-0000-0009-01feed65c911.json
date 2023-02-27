@@ -559,10 +559,13 @@
       "minecraft:vindicator": "2023-02-19 13:52:18 +0000",
       "minecraft:spider": "2023-02-17 14:23:35 +0000",
       "minecraft:creeper": "2023-02-19 11:01:13 +0000",
+      "minecraft:witch": "2023-02-27 11:30:01 +0000",
       "minecraft:cave_spider": "2023-02-17 15:12:30 +0000",
       "minecraft:stray": "2023-02-22 15:47:19 +0000",
+      "minecraft:enderman": "2023-02-27 11:28:03 +0000",
       "minecraft:zombie": "2023-02-17 14:25:40 +0000",
-      "minecraft:drowned": "2023-02-17 15:29:48 +0000"
+      "minecraft:drowned": "2023-02-17 15:29:48 +0000",
+      "minecraft:zombie_villager": "2023-02-26 20:26:23 +0000"
     },
     "done": false
   },
@@ -1561,8 +1564,10 @@
     "criteria": {
       "cooked_mutton": "2023-02-19 12:23:25 +0000",
       "cooked_beef": "2023-02-17 13:41:16 +0000",
+      "potato": "2023-02-26 15:26:35 +0000",
       "cooked_cod": "2023-02-19 11:54:45 +0000",
       "bread": "2023-02-20 17:23:49 +0000",
+      "cookie": "2023-02-26 20:13:31 +0000",
       "cooked_chicken": "2023-02-17 13:40:11 +0000",
       "cooked_salmon": "2023-02-17 14:17:11 +0000",
       "carrot": "2023-02-19 12:58:45 +0000"
@@ -1974,6 +1979,12 @@
   "minecraft:recipes/building_blocks/deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2023-02-19 11:23:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-02-27 11:45:52 +0000"
     },
     "done": true
   },

@@ -143,6 +143,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2023-02-26 17:08:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2023-02-17 14:09:55 +0000"
@@ -263,15 +269,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2023-02-17 15:27:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2023-02-17 15:14:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-02-17 15:27:12 +0000"
     },
     "done": true
   },
@@ -301,7 +307,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_salmon": "2023-02-17 14:20:16 +0000"
+      "cooked_salmon": "2023-02-17 14:20:16 +0000",
+      "carrot": "2023-02-26 16:09:44 +0000"
     },
     "done": false
   },
@@ -401,6 +408,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2023-02-17 14:50:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-02-17 15:23:36 +0000"
@@ -410,12 +423,6 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-02-17 15:23:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2023-02-17 14:50:28 +0000"
     },
     "done": true
   },
@@ -527,15 +534,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blue_wool": {
-    "criteria": {
-      "has_white_wool": "2023-02-17 15:41:06 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2023-02-17 15:21:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_wool": {
+    "criteria": {
+      "has_white_wool": "2023-02-17 15:41:06 +0000"
     },
     "done": true
   },
@@ -844,15 +851,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2023-02-17 15:41:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/pink_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-02-17 15:41:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_carpet": {
+  "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
-      "has_white_wool": "2023-02-17 15:41:06 +0000"
+      "has_melon": "2023-02-26 17:08:11 +0000"
     },
     "done": true
   },
@@ -1078,15 +1091,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
-    "criteria": {
-      "has_gold_ingot": "2023-02-17 15:21:25 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2023-02-17 14:57:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2023-02-17 15:21:25 +0000"
     },
     "done": true
   },
@@ -1380,12 +1393,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2023-02-26 16:05:33 +0000",
       "minecraft:eroded_badlands": "2023-02-17 14:28:04 +0000",
       "minecraft:wooded_badlands": "2023-02-17 14:31:35 +0000",
       "minecraft:badlands": "2023-02-17 14:28:45 +0000",
       "minecraft:river": "2023-02-17 13:48:51 +0000",
       "minecraft:dripstone_caves": "2023-02-17 14:50:11 +0000",
+      "minecraft:jagged_peaks": "2023-02-26 16:05:29 +0000",
       "minecraft:desert": "2023-02-17 13:48:02 +0000",
+      "minecraft:meadow": "2023-02-26 16:07:03 +0000",
       "minecraft:savanna": "2023-02-17 13:48:47 +0000"
     },
     "done": false
@@ -1528,6 +1544,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2023-02-26 16:09:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2023-02-17 14:41:22 +0000"
@@ -1651,6 +1673,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2023-02-17 14:12:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-02-26 17:08:11 +0000"
     },
     "done": true
   },
