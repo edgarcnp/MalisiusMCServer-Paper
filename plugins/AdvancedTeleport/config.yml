@@ -371,6 +371,13 @@ hide-homes-if-denied: false
 # When enabled, setting homes with a name that already exists in your list gets overwritten.
 overwrite-sethome: false
 
+# Shows a list of homes the player has when doing /home and nothing else.
+# This overwrites /home when attempting to teleport to their main home, but if you're more used to what Essentials does, set this to true.
+show-homes-with-no-input: false
+
+# If the player has a main home set, then the option above is ignored. I gotta be flexible.
+prioritise-main-home: true
+
 ##########################
 #  Notifications/Sounds  #
 ##########################

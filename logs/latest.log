@@ -1,12 +1,12 @@
-[12:19:50] [ServerMain/INFO]: Building unoptimized datafixer
-[12:19:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:19:51] [ServerMain/ERROR]: Failed to start the minecraft server
+[17:26:31] [ServerMain/INFO]: Building unoptimized datafixer
+[17:26:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:26:33] [ServerMain/ERROR]: Failed to start the minecraft server
 net.minecraft.util.SessionLock$ExceptionWorldConflict: /home/ubuntu/Minecraft-Server_Geyser/MalisiusMCServer-Paper/./world/session.lock: already locked (possibly by other Minecraft instance?)
 	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:102) ~[?:?]
 	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[?:?]
 	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:414) ~[?:?]
 	at net.minecraft.world.level.storage.LevelStorageSource.createAccess(LevelStorageSource.java:339) ~[?:?]
-	at net.minecraft.server.Main.main(Main.java:189) ~[paper-1.19.3.jar:git-Paper-420]
-	at org.bukkit.craftbukkit.Main.main(Main.java:302) ~[paper-1.19.3.jar:git-Paper-420]
+	at net.minecraft.server.Main.main(Main.java:189) ~[paper-1.19.3.jar:git-Paper-425]
+	at org.bukkit.craftbukkit.Main.main(Main.java:302) ~[paper-1.19.3.jar:git-Paper-425]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.lang.Thread.run(Thread.java:1589) ~[?:?]

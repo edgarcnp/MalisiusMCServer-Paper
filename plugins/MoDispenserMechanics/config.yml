@@ -1,0 +1,107 @@
+general:
+  # If tools are breakable, what should the plugin do when a tool would normally break?
+  # values can be:
+  #   BREAK - break the tool normally
+  #   DROP - drop the tool on the ground
+  #   JAM - do nothing "jam up"
+  #   UNBREAKABLE - tools do not take any durability damage to begin with
+  tool durability option: BREAK
+  # Should MoDispenserMechanics fire Dispense events for its custom mechanics?
+  # Setting this to false will yield slightly better performance.
+  # If you wish to prevent unnecessary CoreProtect container logs set this to false.
+  dispense events: true
+  # Should we not pre-cancel events caused by the fake player?
+  # Setting this to true will cause plugins to handle events caused by the fake player, such as attack, item use etc.
+  # While this can help with integration (such as tree-feller plugins working with it) it can also cause
+  # issues as the fake player isn't a perfect implementation of a real player.
+  # Only enable this option .
+  # You can edit permissions for the fake player via it's UUID: 657912a8-aa0e-3f17-aff5-a41f440e710c
+  fake player events: false
+
+mechanics:
+  block place mechanic:
+    enabled: true
+    # Items this mechanic will not place.
+    disabled items:
+      - "minecraft:command_block"
+      - "minecraft:repeating_command_block"
+      - "minecraft:chain_command_block"
+  tool break block mechanic:
+    enabled: true
+    # How fast should the tools mine?
+    # 1.0 is normal speed.
+    speed multiplier: 1.0
+    # Blocks this mechanic will not mine.
+    disabled blocks:
+      - "minecraft:spawner"
+    # Tools this mechanic will not use.
+    disabled tools: []
+    #  - "minecraft:wooden_pickaxe"
+    # If there is no block to break, should we no-op and let other mechanics handle this action?
+    # If the other mechanics don't no-op for this action, the dispenser will not try
+    # to break a block until it is powered again.
+    # If set to false it will prevent any mechanic handling this tool item after this one has.
+    noop on failure: false
+  item use mechanic:
+    enabled: true
+    # Should the items array be a blacklist or a whitelist?
+    items are blacklist: true
+    # What items the mechanic can and cannot use.
+    items:
+      - "minecraft:firework_rocket"
+    # Should the block in front of the dispenser be interacted with if one is present?
+    # Useful when trying to interact with blocks that have small bounding box(s)
+    # If this is false, the dispenser will always check for line of sight to a block.
+    interact facing block first: true
+    # How far should the Dispenser interact with blocks?
+    # A normal player can interact up to 5 blocks away.
+    interact range: 5.0
+    # Blocks that this mechanic will not interact with.
+    disabled blocks: []
+    # Should this mechanic prevent vanilla behaviors from handling certain items?
+    prevent vanilla behavior for: []
+    # Blocks that the fake player should sneak when interacting with.
+    sneak when using on:
+      # It doesn't make sense to use these blocks as they don't really do anything.
+      - "minecraft:hopper"
+      - "minecraft:dispenser"
+      - "minecraft:dropper"
+      - "minecraft:crafting_table"
+      - "minecraft:stonecutter"
+      - "minecraft:cartography_table"
+      - "minecraft:smithing_table"
+      - "minecraft:grindstone"
+      - "minecraft:loom"
+      - "minecraft:furnace"
+      - "minecraft:smoker"
+      - "minecraft:blast_furnace"
+      - "#minecraft:anvil"
+      - "minecraft:enchanting_table"
+      - "minecraft:brewing_stand"
+      - "minecraft:beacon"
+      - "#minecraft:all_signs"
+      - "minecraft:chest"
+      - "minecraft:barrel"
+      - "minecraft:ender_chest"
+      - "#minecraft:shulker_boxes"
+  weapon attack mechanic:
+    enabled: true
+    # Should swords do sweeping attacks?
+    do sweeping attack: true
+    # Should we respect item attack speed?
+    respect attack speed: true
+    # Weapons this mechanic will not use.
+    disabled weapons: []
+    #  - "minecraft:wooden_sword"
+    # Entities this mechanic will not attack.
+    disabled entities: []
+    #  - "minecraft:wither"
+  animal breed mechanic:
+    enabled: true
+    # Animals this mechanic will not breed.
+    disabled animals: []
+    #  - "minecraft:mooshroom"
+    #  - "minecraft:bee"
+
+# No touchy
+version: 2.4
