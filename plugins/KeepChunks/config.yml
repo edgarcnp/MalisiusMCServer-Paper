@@ -23,7 +23,7 @@ general:
   pluginbanner: true
   colourfulconsole: true
   debug: false
-  releaseallprotection: true
+  releaseallprotection: false
 updates:
   check: true
   notify: true
