@@ -153,6 +153,8 @@ world-settings:
     hanging-tick-frequency: 100
     nerf-spawner-mobs: false
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 commands:
   silent-commandblock-console: false
   tab-complete: 0
