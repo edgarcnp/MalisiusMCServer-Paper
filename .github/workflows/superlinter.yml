@@ -3,12 +3,12 @@ name: Super-Linter
 on:
   push:
     paths-ignore:
-      - cache/**
-      - crash-reports/**
-      - libraries/**
-      - logs/**
-      - plugins/**
-      - versions/**
+      - "cache/**"
+      - "crash-reports/**"
+      - "libraries/**"
+      - "logs/**"
+      - "plugins/**"
+      - "versions/**"
 
 jobs:
   super-lint:
