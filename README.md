@@ -1,1 +1,1 @@
-[![Checkout](https://github.com/PecorinoDev/MalisiusMCServer-Paper/actions/workflows/checkout.yml/badge.svg)](https://github.com/PecorinoDev/MalisiusMCServer-Paper/actions/workflows/checkout.yml)
+[![Checkout](https://github.com/PecorinoDev/MalisiusMCServer-Paper/actions/workflows/checkout.yml/badge.svg?branch=main)](https://github.com/PecorinoDev/MalisiusMCServer-Paper/actions/workflows/checkout.yml)
