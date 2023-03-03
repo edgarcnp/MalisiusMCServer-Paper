@@ -1,6 +1,14 @@
 name: Super-Linter
 
-on: push
+on:
+  push:
+    paths-ignore:
+      - cache/**
+      - crash-reports/**
+      - libraries/**
+      - logs/**
+      - plugins/**
+      - versions/**
 
 jobs:
   super-lint:
